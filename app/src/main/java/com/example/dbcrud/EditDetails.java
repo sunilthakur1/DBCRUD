@@ -55,7 +55,7 @@ public class EditDetails extends AppCompatActivity {
         btnGoBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_back = new Intent(EditDetails.this, Displaystudents.class);
+                Intent intent_back = new Intent(EditDetails.this, DisplayStudent.class);
                 startActivity(intent_back);
             }
         });

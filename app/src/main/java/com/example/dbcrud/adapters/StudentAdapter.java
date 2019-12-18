@@ -78,7 +78,7 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentV
 
         public StudentViewHolder(View view) {
             super(view);
-                    
+
         txtName = itemView.findViewById(R.id.txtName);
         txtEmail = itemView.findViewById(R.id.txtEmail);
         txtPhone = itemView.findViewById(R.id.txtPhone);
